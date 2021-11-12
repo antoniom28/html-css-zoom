@@ -31,9 +31,9 @@ nav ul li{
 
 main{
     /*background-color: skyblue;*/
-    height: 78%;
-    width: 84%;
-    margin: 3% auto;
+    height: 78vh;
+    width: 90%;
+    margin: 3vh auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -67,4 +67,18 @@ img{
 footer{
     background-color:rgb(104, 104, 104);
     height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+}
+
+footer ul.icone li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0 10px;
 }
